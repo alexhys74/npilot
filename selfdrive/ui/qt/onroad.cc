@@ -921,8 +921,8 @@ void NvgWindow::drawThermal(QPainter &p) {
   }*/
 
   int w = 192;
-  int x = width() - (30 + w);
-  int y = 450;
+  int x = 190; //width() - (30 + w);
+  int y = 540; //450;
 
   QString str;
   QRect rect;
