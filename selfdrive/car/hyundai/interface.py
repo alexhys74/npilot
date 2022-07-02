@@ -135,8 +135,8 @@ class CarInterface(CarInterfaceBase):
     elif candidate in [CAR.SANTA_FE]:
       ret.mass = 1694 + STD_CARGO_KG
       ret.wheelbase = 2.766
-      tire_stiffness_factor = 0.7
-      ret.steerRatio = 13.8
+      ret.steerRatio = 16.55  # 13.8 is spec end-to-end
+      tire_stiffness_factor = 0.82
       ret.centerToFront = ret.wheelbase * 0.4
     elif candidate in [CAR.SANTA_FE_2022, CAR.SANTA_FE_HEV_2022]:
       ret.mass = 1750 + STD_CARGO_KG
