@@ -288,9 +288,9 @@ class CarInterface(CarInterfaceBase):
       #torque_lat_accel_factor = 2.544642494803999 #LAT_ACCEL_FACTOR	#PALISADE
       #torque_friction = 0.1301424599248651 #FRICTION
       #ret.maxLateralAccel = 1.8721703683337008 #MAX_LAT_ACCEL_MEASURED
-      torque_lat_accel_factor = 1.7662975472852054 #LAT_ACCEL_FACTOR	#AE EV
-      torque_friction = 0.17087579756306276 #FRICTION
-      ret.maxLateralAccel = 1.613755614526594 #MAX_LAT_ACCEL_MEASURED		
+      torque_lat_accel_factor = 4.398306735170212 #LAT_ACCEL_FACTOR	#OS EV
+      torque_friction = 0.08651833437845884 #FRICTION
+      ret.maxLateralAccel = 3.2961956260770484 #MAX_LAT_ACCEL_MEASURED		
       #토크
       set_torque_tune(ret.lateralTuning, torque_lat_accel_factor, torque_friction)
 
